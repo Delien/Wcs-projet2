@@ -21,9 +21,9 @@ class MyPopup extends React.Component {
 
   sendInfo() {
     axios
-      .get(`http://localhost:5050/utilisateurs/?abonne=${this.props.identity}`)
+      .get(`http://localhost:4040/utilisateurs/?abonne=${this.props.identity}`)
       .then(res => {
-        axios.post(`http://localhost:5050/utilisateurs`, {
+        axios.post(`http://localhost:4040/utilisateurs`, {
           abonne: this.props.identity,
           favoris: [
             {

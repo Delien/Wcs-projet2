@@ -24,7 +24,7 @@ h5::first-letter {
 }
 
 .leaflet-container {
-  height: 80vh;
+  height: 70vh;
 }
 
 .leaflet-popup-content-wrapper {
@@ -286,11 +286,21 @@ nav.navbar.navbar-expand-sm.navbar-light.bg-light {
 }
 
 div.footer.btn-group {
-  height: 6vh;
+  height: 5vh;
   position: fixed;
-  bottom: 0px;
+  bottom: 19px;
 }
-
+.love {
+  position: fixed;
+  margin-left: 40rem;
+}
+.hearth {
+  color: red;
+}
+.love a {
+  text-decoration: none;
+  color: black;
+}
 body {
   height: 100vh;
 }
@@ -503,14 +513,14 @@ img .mapLegend {
 
 @media screen and (max-width: 1296px) {
   .mapLegend {
-    width: 70%;
+    width: 80%;
     display: flex;
     margin: 0.5 0 0.5 0;
     position: relative;
     bottom: 0.5rem;
   }
   .mentions {
-    width: 30%;
+    width: 20%;
   }
   .leaflet-container {
     height: 80vh;
