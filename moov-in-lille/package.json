@@ -10,7 +10,7 @@
     "leaflet-routing-machine": "^3.2.12",
     "mapbox-gl": "^0.53.1",
     "mapbox-gl-leaflet": "0.0.4",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-circle-slider": "^1.6.2",
     "react-dom": "^16.8.6",
